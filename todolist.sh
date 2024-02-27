@@ -1,15 +1,5 @@
 #!/bin/bash
 
-
-#Test
-#Test
-#Test
-#Test
-#Test
-#Test
-#Test
-
-
 # Creates the text file in which the sum of money will be stored in case it's not already created.
 if [[ ! -e Money.txt ]]; then 
 	touch Money.txt
