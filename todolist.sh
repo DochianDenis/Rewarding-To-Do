@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Verify the connection to wsl2
+
 # Creates the text file in which the sum of money will be stored in case it's not already created.
 if [[ ! -e Money.txt ]]; then 
 	touch Money.txt
